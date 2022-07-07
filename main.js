@@ -1,7 +1,5 @@
 
 const selectorLista = document.getElementById('list')
-console.log(selectorLista)
-
 
 const arrayLi = ['1', '2', '3', '4', '5']
 arrayLi.forEach(item => {
@@ -50,5 +48,5 @@ arrayLi.forEach(item => {
 
 const envio = document.getElementById('buttonSend')
 envio.addEventListener('click', () => {
-  console.log('se ha enviado el formualrio con la respuesta')
+  console.log('se ha enviado el formualrio con la respuesta');
 })
