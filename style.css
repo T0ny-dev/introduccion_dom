@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141519;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: system-ui;
+}
+
+.box {
+  background-color:#1F2630;
+  width: 38vw;
+  height: 45vh;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.box_icon_star {
+  display: flex;
+  justify-content: center;
+  background-color:#3d3d3f;
+  width: 35px;
+  padding: 10px 10px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color:#F6F9FF;
+  margin-bottom:10px;
+}
+
+p {
+  color: #5C636D;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+li {
+  display: inline-block;
+  background-color: #262F38;
+  padding: 10px 19px;
+  color: #F6F9FF;
+  border-radius: 30px;
+}
+
+li:hover {
+  display: inline-block;
+  background-color:hsl(25, 97%, 53%);
+  padding: 10px 19px;
+  color: #F6F9FF;
+  border-radius: 30px;
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  border: none;
+  color: #F6F9FF;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1030px) {
+  .box {
+    width: 45vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .box {
+    width: 80vw;
+    height: 50vh;
+  }
+}
