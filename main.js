@@ -48,5 +48,5 @@ arrayLi.forEach(item => {
 
 const envio = document.getElementById('buttonSend')
 envio.addEventListener('click', () => {
-  console.log('se ha enviado el formualario con la respuesta');
+  console.log('se ha enviado el formulario con la respuesta');
 })
